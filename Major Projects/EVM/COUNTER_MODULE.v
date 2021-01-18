@@ -51,7 +51,7 @@ total_voting <= (vote_party1 + vote_party2 + vote_party3 + vote_party4);
 end
 end
 
-/*always @(posedge clk or posedge system_reset)
+ /*always @(posedge clk or posedge system_reset) 
 begin
 if (system_reset==1'b1)
 begin
