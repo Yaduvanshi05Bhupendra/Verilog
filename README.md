@@ -2,47 +2,72 @@
 
 <br/>
 <p align="center">
-  <img src="https://www.vectorlogo.zone/logos/perl/perl-icon.svg" alt="perl" width="40" height="40"/>
+  <img src="https://www.meldium.com/wp-content/uploads/2018/11/FpgaServices.png" alt="perl" width="60" height="60"/>
 </p>
 
 
 ## Index
 
 * [Verilog-Topics](#Verilog-Topics)
-	 * [Verilog HDL Syntax And Semantics](#Verilog HDL Syntax And Semantics)
-	 * [Gate Level Modeling](#Gate Level Modeling)
-    * [User Defined Primitives](#User Defined Primitives)
-	 * [Verilog Operators](#Verilog Operators)
-	 * [Verilog Behavioral Modeling](#Verilog Behavioral Modeling)
-	 * [Procedural Timing Control](#Procedural Timing Control)
-	 * [Task And Functions](#Task And Functions)
-	 * [System Task and Function](#System Task and Function)
-	 * [Writing TestBenches](#Writing TestBenches)
-	 * [Modeling Memories And FSM](#Modeling Memories And FSM)
-	 * [Parameterized Modules](#Parameterized Modules)
-	 * [Compiler Directives](#Compiler Directives)
+    * [Verilog-HDL-Syntax-And-Semantics](#Verilog-HDL-Syntax-And-Semantics)
+    * [Gate-Level-Modeling](#Gate-Level-Modeling)
+    * [User-Defined-Primitives](#User-Defined-Primitives)
+    * [Verilog-Operators](#Verilog-Operators)
+    * [Verilog-Behavioral-Modeling](#Verilog-Behavioral-Modeling)
+    * [Procedural-Timing-Control](#Procedural-Timing-Control)
+    * [Task-And-Functions](#Task-And-Functions)
+    * [System-Task-And-Function](#System-Task-And-Function)
+    * [Writing-TestBenches](#Writing-TestBenches)
+    * [Modeling-Memories-And-FSM](#Modeling-Memories-And-FSM)
+    * [Parameterized-Modules](#Parameterized-Modules)
+    * [Compiler-Directives](#Compiler-Directives)
     
     
 * [Verilog-Mini-Projects](#Verilog-Mini-Projects)
-    * [Combinational Circuit](#Combinational Circuit)
-       * [Half Adder](#Half Adder)
-       * [Full Adder](#Full Adder)
-    * [Sequential Circuit](#Sequential Circuit)
-       * [SR Flip Flop](#SR Flip Flop)
+    * [Combinational-Circuit](#Combinational-Circuit)
+       * [Half-Adder](#Half-Adder)
+       * [Full-Adder](#Full-Adder)
+    * [Sequential-Circuit](#Sequential-Circuit)
+       * [SR-Flip-Flop](#SR-Flip-Flop)
+       * [JK-Flip-Flop](#JK-Flip-Flop)
+       * [D-Flip-Flop](#D-Flip-Flop)
+       * [T-Flip-Flop](#T-Flip-Flop)
 
 * [Verilog-Major-Projects](#Verilog-Major-Projects)
 
 * [Misc](#Misc)
-* [Python-installation](#Python-Installation)
+* [Verilog-Installation](#Verilog-Installation)
 * [Credits](#Credits)
 * [Contributing](#Contributing)
 * [Contact-Info](#Contact-Info)
 * [License](#License)
 
-## Perl-mini-Projects
-Following are the Verilog projects
+## Verilog-Topics
+### Verilog-HDL-Syntax-And-Semantics
+### Gate-Level-Modeling
+### User-Defined-Primitives
+### Verilog-Operators
+### Verilog-Behavioral-Modeling
+### Procedural-Timing-Control
+### Task-And-Functions
+### System-Task-And-Function
+### Writing-TestBenches
+### Modeling-Memories-And-FSM
+### Parameterized-Modules
+### Compiler-Directives
+    
+    
+## Verilog-Mini-Projects
+### Combinational-Circuit
+#### Half-Adder
+#### Full-Adder
+### Sequential-Circuit
+#### SR-Flip-Flop
+#### JK-Flip-Flop
+#### D-Flip-Flop
+#### T-Flip-Flop
 
-
+## Verilog-Major-Projects
 
 
 Note: I'm beginner please suggest any improvement :grin:
