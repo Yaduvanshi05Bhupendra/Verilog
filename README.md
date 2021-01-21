@@ -1,5 +1,4 @@
-# Verilog Practice and Projects
-
+<h1 align="center">Verilog Practice and Projects</h1>
 <br/>
 <p align="center">
   <img src="https://www.meldium.com/wp-content/uploads/2018/11/FpgaServices.png" alt="perl" width="60" height="60"/>
