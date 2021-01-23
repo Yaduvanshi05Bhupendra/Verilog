@@ -7,55 +7,6 @@
 
 ## Index
 
-* [Verilog-Topics](#Verilog-Topics)
-    * [Verilog-HDL-Syntax-And-Semantics](#Verilog-HDL-Syntax-And-Semantics)
-    * [Gate-Level-Modeling](#Gate-Level-Modeling)
-    * [User-Defined-Primitives](#User-Defined-Primitives)
-    * [Verilog-Operators](#Verilog-Operators)
-    * [Verilog-Behavioral-Modeling](#Verilog-Behavioral-Modeling)
-    * [Procedural-Timing-Control](#Procedural-Timing-Control)
-    * [Task-And-Functions](#Task-And-Functions)
-    * [System-Task-And-Function](#System-Task-And-Function)
-    * [Writing-TestBenches](#Writing-TestBenches)
-    * [Modeling-Memories-And-FSM](#Modeling-Memories-And-FSM)
-    * [Parameterized-Modules](#Parameterized-Modules)
-    * [Compiler-Directives](#Compiler-Directives)
-    
-    
-* [Verilog-Mini-Projects](#Verilog-Mini-Projects)
-    * [Combinational-Circuit](#Combinational-Circuit)
-       * [HALF-ADDER](#HALF-ADDER)
-       * [FULL-ADDER](#FULL-ADDER)
-       * [2x1-MUX](#2x1-MUX)
-       * [4x1-MULTIPLXER](#4x1-MULTIPLXER)
-       * [4x1-MUX-USING-2x1-MUX](#4x1-MUX-USING-2x1-MUX)
-       * [2-BIT-MULTIPLIER](#2-BIT-MULTIPLIER)
-       * [4-BIT-MULTIPLIER-USING-FULL-AND-HALF-ADDER](#4-BIT-MULTIPLIER-USING-FULL-AND-HALF-ADDER)
-       * [4-BIT-MULTIPLIER-USING-2-BIT-MULTIPLIER](#4-BIT-MULTIPLIER-USING-2-BIT-MULTIPLIER)
-       * [1x4-DEMUX](#1x4-DEMUX)
-       * [8x3-ENCODER](#8x3-ENCODER)
-       * [PRIORITY-ENCODER](#PRIORITY-ENCODER)
-       * [3x8-DECODER](#3x8-DECODER)
-       * [SYNTHESIS-OF-2x4-DECODER](#SYNTHESIS-OF-2x4-DECODER)
-       
-    * [Sequential-Circuit](#Sequential-Circuit)
-       * [SR-FLIP-FLOP](#SR-FLIP-FLOP)
-       * [JK-FLIP-FLOP](#JK-FLIP-FLOP)
-       * [D-FLIP-FLOP](#D-FLIP-FLOP)
-       * [T-FLIP-FLOP](#T-FLIP-FLOP)
-       * [UP-COUNTER](#UP-COUNTER)
-       * [DOWN-COUNTER](#DOWN-COUNTER)
-       * [UP-DOWN-COUNTER](#UP-DOWN-COUNTER)
-       * [4-BIT-SYNCHRONOUS-COUNTER](#4-BIT-SYNCHRONOUS-COUNTER)
-       * [4-BIT-ASYNCHRONOUS-COUNTER](#4-BIT-ASYNCHRONOUS-COUNTER)
-       * [FSM-MELAY-1010](#FSM-MELAY-1010)
-       * [FSM-MOORE-1010](#FSM-MOORE-1010)
-       * [N-BIT-SERIAL-ADDER](#N-BIT-SERIAL-ADDER)
-       * [N-BIT-BINARY-TO-GRAY-CODE-CONVERTER](#N-BIT-BINARY-TO-GRAY-CODE-CONVERTER)
-       * [SINGLE-PORT-RAM](#SINGLE-PORT-RAM)
-       * [DUAL-PORT-RAM](#DUAL-PORT-RAM)
-       * [ROM](#ROM)
-
 * [Verilog-Major-Projects](#Verilog-Major-Projects)
     * [EVM](#EVM)
     * [REAL-TIME-CLOCK](#REAL-TIME-CLOCK)
@@ -66,55 +17,6 @@
 * [Contributing](#Contributing)
 * [Contact-Info](#Contact-Info)
 * [License](#License)
-
-## Verilog-Topics
-### Verilog-HDL-Syntax-And-Semantics
-### Gate-Level-Modeling
-### User-Defined-Primitives
-### Verilog-Operators
-### Verilog-Behavioral-Modeling
-### Procedural-Timing-Control
-### Task-And-Functions
-### System-Task-And-Function
-### Writing-TestBenches
-### Modeling-Memories-And-FSM
-### Parameterized-Modules
-### Compiler-Directives
-    
-    
-## Verilog-Mini-Projects
-### Combinational-Circuit
-#### HALF-ADDER
-#### FULL-ADDER
-#### 2x1-MUX
-#### 4x1-MULTIPLXER
-#### 4x1-MUX-USING-2x1-MUX
-#### 2-BIT-MULTIPLIER
-#### 4-BIT-MULTIPLIER-USING-FULL-AND-HALF-ADDER
-#### 4-BIT-MULTIPLIER-USING-2-BIT-MULTIPLIER
-#### 1x4-DEMUX
-#### 8x3-ENCODER
-#### PRIORITY-ENCODER
-#### 3x8-DECODER
-#### SYNTHESIS-OF-2:4-DECODER
-
-### Sequential-Circuit
-#### SR-FLIP-FLOP
-#### JK-FLIP-FLOP
-#### D-FLIP-FLOP
-#### T-FLIP-FLOP
-#### UP-COUNTER
-#### DOWN-COUNTER
-#### UP-DOWN-COUNTER
-#### 4-BIT-SYNCHRONOUS-COUNTER
-#### 4-BIT-ASYNCHRONOUS-COUNTER
-#### FSM-MELAY-1010
-#### FSM-MOORE-1010 
-#### N-BIT-SERIAL-ADDER
-#### N-BIT-BINARY-TO-GRAY-CODE-CONVERTER
-#### SINGLE-PORT-RAM
-#### DUAL-PORT-RAM
-#### ROM
 
 ## Verilog-Major-Projects
 ### EVM
@@ -162,7 +64,7 @@ Please note - the license.dat file email could get reside in your Spam or Junk m
 
 ## Contributing
 
-Contributions are welcome!  For bug reports or requests please [submit an issue](https://github.com/Yaduvanshi05Bhupendra/Verilog/issues).
+Contributions are welcome!  For bug reports or requests please [submit an issue](https://github.com/Yaduvanshi05Bhupendra/Verilog/Verilog-Major-Projects/issues).
 
 ## Contact-Info
 
