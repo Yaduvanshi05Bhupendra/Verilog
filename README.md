@@ -24,15 +24,35 @@
     
 * [Verilog-Mini-Projects](#Verilog-Mini-Projects)
     * [Combinational-Circuit](#Combinational-Circuit)
-       * [Half-Adder](#Half-Adder)
-       * [Full-Adder](#Full-Adder)
+       * [HALF-ADDER](#HALF-ADDER)
+       * [FULL-ADDER](#FULL-ADDER)
+       * [2x1-MUX](#2x1-MUX)
+       * [4x1-MULTIPLXER](#4x1-MULTIPLXER)
+       * [4x1-MUX-USING-2x1-MUX](#4x1-MUX-USING-2x1-MUX)
+       * [2-BIT-MULTIPLIER](#2-BIT-MULTIPLIER)
+       * [4-BIT-MULTIPLIER](#4-BIT-MULTIPLIER)
+       * [1x4-DEMUX](#1x4-DEMUX)
+
+       
     * [Sequential-Circuit](#Sequential-Circuit)
-       * [SR-Flip-Flop](#SR-Flip-Flop)
-       * [JK-Flip-Flop](#JK-Flip-Flop)
-       * [D-Flip-Flop](#D-Flip-Flop)
-       * [T-Flip-Flop](#T-Flip-Flop)
+       * [SR-FLIP-FLOP](#SR-FLIP-FLOP)
+       * [JK-FLIP-FLOP](#JK-FLIP-FLOP)
+       * [D-FLIP-FLOP](#D-FLIP-FLOP)
+       * [T-FLIP-FLOP](#T-FLIP-FLOP)
+       * [8x3-ENCODER](#8x3-ENCODER)
+       * [PRIORITY-ENCODER](#PRIORITY-ENCODER)
+       * [3x8-DECODER](#3x8-DECODER)
+       * [SYNTHESIS-OF-2:4-DECODER](#SYNTHESIS-OF-2:4-DECODER)
+       * [UP-COUNTER](#UP-COUNTER)
+       * [DOWN-COUNTER](#DOWN-COUNTER)
+       * [UP-DOWN-COUNTER](#UP-DOWN-COUNTER)
+       * [4-BIT-SYNCHRONOUS-COUNTER](#4-BIT-SYNCHRONOUS-COUNTER)
+       * [4-BIT-ASYNCHRONOUS-COUNTER](#4-BIT-ASYNCHRONOUS-COUNTER)
+       * [FSM-MELAY-1010](#FSM-MELAY-1010)
+       * [FSM-MOORE-1010](#FSM-MOORE-1010)
 
 * [Verilog-Major-Projects](#Verilog-Major-Projects)
+    * [EVM](#EVM)
 
 * [Misc](#Misc)
 * [Verilog-Installation](#Verilog-Installation)
@@ -58,22 +78,63 @@
     
 ## Verilog-Mini-Projects
 ### Combinational-Circuit
-#### Half-Adder
-#### Full-Adder
+#### HALF-ADDER
+#### FULL-ADDER
+#### 2x1-MUX
+#### 4x1-MULTIPLXER
+#### 4x1-MUX-USING-2x1-MUX
+#### 2-BIT-MULTIPLIER
+#### 4-BIT-MULTIPLIER
+#### 1x4-DEMUX
+
+
 ### Sequential-Circuit
-#### SR-Flip-Flop
-#### JK-Flip-Flop
-#### D-Flip-Flop
-#### T-Flip-Flop
-
+#### SR-FLIP-FLOP
+#### JK-FLIP-FLOP
+#### D-FLIP-FLOP
+#### T-FLIP-FLOP
+#### 8x3-ENCODER
+#### PRIORITY-ENCODER
+#### 3x8-DECODER
+#### SYNTHESIS-OF-2:4-DECODER
+#### UP-COUNTER
+#### DOWN-COUNTER
+#### UP-DOWN-COUNTER
+#### 4-BIT-SYNCHRONOUS-COUNTER
+#### 4-BIT-ASYNCHRONOUS-COUNTER
+#### FSM-MELAY-1010
+#### FSM-MOORE-1010       
 ## Verilog-Major-Projects
-
+### EVM
 
 Note: I'm beginner please suggest any improvement :grin:
 
 ## Misc
 
 ## Verilog-Installation
+1. Download the latest ModelSim PE Student Edition from [here](https://www.mentor.com/products/request?&fmpath=/company/higher_ed/modelsim-student-edition-eval&id=c3694f2b-35f0-48a7-bdcd-efd77417ded0)
+
+**Please note:** You must be logged in as the administrator on the computer you are installing ModelSim PE Student Edition.
+ 
+2. **Install the Software**
+
+* After the file downloads completely, double-click on the .exe file to begin the installation process.
+* You must agree to the Mentor Graphics End-User License agreement during installation to continue.
+
+3. **Complete the License Request Form**
+
+* At the end of the installation process, select Finish and a browser window will open with the License Request form
+**Please note** - clicking on an existing license request link from your browser bookmark or from a link posted on the web - WILL NOT WORK.
+* Complete the all of the form fields with attention to the email address field and submit the license request form.
+* Once your request has been received the ModelSim PE Student Edition license file will be generated, matched to your host computer and will be emailed to you along with license installation instructions.
+Please note - the license.dat file email could get reside in your Spam or Junk mail folder. If you do not receive the email within a few minutes, check your spam folder or email provider.
+* If you do not receive your license.dat file email - You will need to rerun the installation sequence and request a new license file. This is an automated process. We are unable to manually generate a license file for you.
+
+2. **Important Information about your Installation**
+
+* License files are valid only for the current installation of the software on the computer on which the software is installed.
+* If you need to re-install the software on a computer, you are encouraged to download the latest release and corresponding license file.
+* If for any reason you need a new license file - you must go through the entire process of download, installation and license request.
 
 ## Credits
 
