@@ -7,21 +7,6 @@
 
 ## Index
 
-* [Verilog-Topics](#Verilog-Topics)
-    * [Verilog-HDL-Syntax-And-Semantics](#Verilog-HDL-Syntax-And-Semantics)
-    * [Gate-Level-Modeling](#Gate-Level-Modeling)
-    * [User-Defined-Primitives](#User-Defined-Primitives)
-    * [Verilog-Operators](#Verilog-Operators)
-    * [Verilog-Behavioral-Modeling](#Verilog-Behavioral-Modeling)
-    * [Procedural-Timing-Control](#Procedural-Timing-Control)
-    * [Task-And-Functions](#Task-And-Functions)
-    * [System-Task-And-Function](#System-Task-And-Function)
-    * [Writing-TestBenches](#Writing-TestBenches)
-    * [Modeling-Memories-And-FSM](#Modeling-Memories-And-FSM)
-    * [Parameterized-Modules](#Parameterized-Modules)
-    * [Compiler-Directives](#Compiler-Directives)
-    
-    
 * [Verilog-Mini-Projects](#Verilog-Mini-Projects)
     * [Combinational-Circuit](#Combinational-Circuit)
        * [HALF-ADDER](#HALF-ADDER)
@@ -56,31 +41,12 @@
        * [DUAL-PORT-RAM](#DUAL-PORT-RAM)
        * [ROM](#ROM)
 
-* [Verilog-Major-Projects](#Verilog-Major-Projects)
-    * [EVM](#EVM)
-    * [REAL-TIME-CLOCK](#REAL-TIME-CLOCK)
-
 * [Misc](#Misc)
 * [Verilog-Installation](#Verilog-Installation)
 * [Credits](#Credits)
 * [Contributing](#Contributing)
 * [Contact-Info](#Contact-Info)
 * [License](#License)
-
-## Verilog-Topics
-### Verilog-HDL-Syntax-And-Semantics
-### Gate-Level-Modeling
-### User-Defined-Primitives
-### Verilog-Operators
-### Verilog-Behavioral-Modeling
-### Procedural-Timing-Control
-### Task-And-Functions
-### System-Task-And-Function
-### Writing-TestBenches
-### Modeling-Memories-And-FSM
-### Parameterized-Modules
-### Compiler-Directives
-    
     
 ## Verilog-Mini-Projects
 ### Combinational-Circuit
@@ -115,10 +81,6 @@
 #### SINGLE-PORT-RAM
 #### DUAL-PORT-RAM
 #### ROM
-
-## Verilog-Major-Projects
-### EVM
-### REAL-TIME-CLOCK
 
 Note: I'm beginner please suggest any improvement :grin:
 
@@ -162,7 +124,7 @@ Please note - the license.dat file email could get reside in your Spam or Junk m
 
 ## Contributing
 
-Contributions are welcome!  For bug reports or requests please [submit an issue](https://github.com/Yaduvanshi05Bhupendra/Verilog/issues).
+Contributions are welcome!  For bug reports or requests please [submit an issue](https://github.com/Yaduvanshi05Bhupendra/Verilog/Verilog-Mini-Projects/issues).
 
 ## Contact-Info
 
