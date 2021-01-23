@@ -42,7 +42,7 @@
        * [8x3-ENCODER](#8x3-ENCODER)
        * [PRIORITY-ENCODER](#PRIORITY-ENCODER)
        * [3x8-DECODER](#3x8-DECODER)
-       * [SYNTHESIS-OF-2:4-DECODER](#SYNTHESIS-OF-2:4-DECODER)
+       * [SYNTHESIS-OF-2x4-DECODER](#SYNTHESIS-OF-2x4-DECODER)
        * [UP-COUNTER](#UP-COUNTER)
        * [DOWN-COUNTER](#DOWN-COUNTER)
        * [UP-DOWN-COUNTER](#UP-DOWN-COUNTER)
@@ -124,7 +124,9 @@ Note: I'm beginner please suggest any improvement :grin:
 3. **Complete the License Request Form**
 
 * At the end of the installation process, select Finish and a browser window will open with the License Request form
+
 **Please note** - clicking on an existing license request link from your browser bookmark or from a link posted on the web - WILL NOT WORK.
+
 * Complete the all of the form fields with attention to the email address field and submit the license request form.
 * Once your request has been received the ModelSim PE Student Edition license file will be generated, matched to your host computer and will be emailed to you along with license installation instructions.
 Please note - the license.dat file email could get reside in your Spam or Junk mail folder. If you do not receive the email within a few minutes, check your spam folder or email provider.
