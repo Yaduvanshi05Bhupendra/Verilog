@@ -112,6 +112,13 @@ Note: I'm beginner please suggest any improvement :grin:
 ## Misc
 
 ## Verilog-Installation
+There are various software to work in verilog. Three software are mentioned here:
+* ModelSim PE Student Edition - Mentor Graphics
+* ISE Design Suite - Xilinx
+* Intel Quartus Prime - Intel
+
+### Installation Process of ModelSim PE Student Edition (Mentor Graphics)
+
 1. Download the latest ModelSim PE Student Edition from [here](https://www.mentor.com/products/request?&fmpath=/company/higher_ed/modelsim-student-edition-eval&id=c3694f2b-35f0-48a7-bdcd-efd77417ded0)
 
 **Please note:** You must be logged in as the administrator on the computer you are installing ModelSim PE Student Edition.
