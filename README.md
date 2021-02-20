@@ -124,7 +124,8 @@
 ### REAL-TIME-CLOCK
 
 ## Verilog-Questions
-### Question no. 1: Dlock
+### Question no. 1
+### Dlock
 **Question:**  *It is required to implement a digital lock that will accept a specific bit sequence “110100” through an input button “b_in” serially in synchronism with the negative edge of an input clock "clk" and will generate an “unlock” signal “1” as output; for any other bit sequence the “unlock” signal will remain at logic “0”. An active low “clear” signal is used to asynchronously reset the lock in its initial/default state. Write a Verilog module to implement the specification as per the following template: module dlock (unlock, b_in, clear, clk);*
 
 **Solution** This question is solved by using FSM concept of verilog
@@ -137,18 +138,17 @@
 
 **State table**
 | Present State | Next State |   Output   |
-|---------------|------------|------------|
-|               |  X=0 | X=1 |  X=0 | X=1 |
-|---------------|------------|------------|
-|               |      |     |            |
-|               |      |     |            |
-|               |      |     |            |
-|               |      |     |            |
-|               |      |     |            |
-|               |      |     |            |
-|               |      |     |            |
-|               |      |     |            |
-|               |      |     |            |
+|:-------------:|:----------:|:----------:|
+|               |  X=0 /| X=1 |  X=0 /| X=1 |
+|               |      /|     |            |
+|               |      /|     |            |
+|               |      /|     |            |
+|               |      /|     |            |
+|               |      /|     |            |
+|               |      /|     |            |
+|               |      /|     |            |
+|               |      /|     |            |
+|               |      /|     |            |
 
 **Output Waveform**
 <br/>
@@ -170,7 +170,7 @@
 
 *For code of main module click here* [Main-Module](https://github.com/Yaduvanshi05Bhupendra/Verilog/blob/main/Verilog-Questions/Dlock/dlock.v)
 
-*For code of test bench module click here* [Test-bench](https://github.com/Yaduvanshi05Bhupendra/Verilog/blob/main/Verilog-Questions/Dlock/tb_dlock.v)
+*For code of test bench module click here* [Test-Bench](https://github.com/Yaduvanshi05Bhupendra/Verilog/blob/main/Verilog-Questions/Dlock/tb_dlock.v)
 
 
 Note: I'm beginner please suggest any improvement :grin:
