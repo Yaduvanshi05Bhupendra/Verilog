@@ -60,6 +60,9 @@
     * [EVM](#EVM)
     * [REAL-TIME-CLOCK](#REAL-TIME-CLOCK)
 
+* [Verilog-Questions](#Verilog-Questions)
+    * [Dlock](#Dlock)
+
 * [Misc](#Misc)
 * [Verilog-Installation](#Verilog-Installation)
 * [Credits](#Credits)
@@ -120,6 +123,180 @@
 ### EVM
 ### REAL-TIME-CLOCK
 
+## Verilog-Questions
+### Dlock
+**Question: ** *It is required to implement a digital lock that will accept a specific bit sequence “110100” through an input button “b_in” serially in synchronism with the negative edge of an input clock "clk" and will generate an “unlock” signal “1” as output; for any other bit sequence the “unlock” signal will remain at logic “0”. An active low “clear” signal is used to asynchronously reset the lock in its initial/default state. Write a Verilog module to implement the specification as per the following template: module dlock (unlock, b_in, clear, clk);*
+**Solution**
+**Main Module of Dlock**
+// Copyright (c) Bhupendra Kumar Yadav
+// -----------------------------------------------------------------
+// FILE NAME: dlock.v
+// TYPE: module
+// DEPARTMENT: Verilog Design with FPGA
+// AUTHOR: Bhupendra Kumar Yadav
+// AUTHOR'S EMAIL: Yaduvanshi05bhupendra@gmail.com
+//------------------------------------------------------------------
+// Release history
+// VERSION DATE AUTHOR DESCRIPTION
+// 1.0 19/02/2021 Bhupendra kumar yadav
+//------------------------------------------------------------------
+// KEYWORDS: FSM
+//------------------------------------------------------------------
+// PURPOSE: module to detect 110100 sequence using FSM
+
+module dlock
+ #( //Binary encoding of state
+   parameter STATE_WIDTH = 3,
+	parameter S0 = 3'b000,
+	parameter S1 = 3'b001,
+	parameter S2 = 3'b010,
+	parameter S3 = 3'b011,
+	parameter S4 = 3'b100,
+	parameter S5 = 3'b101
+  )
+
+ ( //Ports
+  input clk,
+  input clear,
+  input d_in,
+  output reg unlock
+ );
+
+ reg [(STATE_WIDTH-1):0] present_state;  
+ reg [(STATE_WIDTH-1):0] next_state;
+ 
+ // Present state register
+ // Sequential logic
+ // Make sure sensitivity list in always block is 
+ //edge triggered or level triggered
+ always @(posedge clk or negedge clear)
+    begin
+       if (clear == 1'b0)
+          present_state <= S0;       
+       else 
+          present_state <= next_state;
+   end
+
+ // body of FSM is case statement
+ // Next state logic
+ // Combinational logic
+ always @(present_state or d_in)
+    begin 
+       case(present_state)
+          S0 : begin
+                  next_state <= d_in ? S1 : S0;
+                  unlock <= 1'b0;
+               end
+          S1 : begin
+                  next_state <= d_in ? S2 : S0;
+                  unlock <= 1'b0;
+               end
+          S2 : begin
+                  next_state <= d_in ? S2 : S3;
+                  unlock <= 1'b0;
+               end
+          S3 : begin
+                  next_state <= d_in ? S4 : S0;
+                  unlock <= 1'b0;
+               end
+          S4 : begin
+                  next_state <= d_in ? S2 : S5;
+                  unlock <= 1'b0;
+               end
+          S5 : begin
+                  next_state <= d_in ? S1 : S0;
+                  unlock     <= d_in ? 1'b0 : 1'b1;
+               end
+     default : begin
+                  next_state <= S0;
+                  unlock <= 1'b0;
+               end  
+       endcase
+    end
+ endmodule         
+ 
+ **Test bench of Dlock**
+ // Copyright (c) Bhupendra Kumar Yadav
+// -----------------------------------------------------------------
+// FILE NAME: tb_dlock.v
+// TYPE: module
+// DEPARTMENT: Verilog Design with FPGA
+// AUTHOR: Bhupendra Kumar Yadav
+// AUTHOR'S EMAIL: Yaduvanshi05bhupendra@gmail.com
+//------------------------------------------------------------------
+// Release history
+// VERSION DATE AUTHOR DESCRIPTION
+// 1.0 20/02/2021 Bhupendra kumar yadav
+//------------------------------------------------------------------
+// KEYWORDS: test bench, FSM
+//------------------------------------------------------------------
+// PURPOSE: test bench module to detect 110100 sequence using FSM
+
+`timescale 1 ns / 1 ps  // set timescale to
+                        // nanoseconds, ps precision
+
+module tb_dlock ();  //  no sensitivity list!
+
+// signal declarations
+reg d_in;         // data input stimulus
+reg clear;        // data input stimulus
+reg clk;          // data input stimulus
+wire unlock;      // data output stimulus
+reg expected;     // expected unlock result 
+
+// DUT instantiation       
+test1 dut (.unlock(unlock), 
+           .d_in(d_in), 
+           .clear(clear), 
+           .clk(clk)
+          );
+
+initial begin
+clk = 0;
+clear = 0;
+// Clock of 50ns clock period with 50% duty cycle
+forever #25 clk=~clk;
+end
+
+// Test stimulus generation
+initial begin
+    clear = 1'b1;
+    d_in = 1'b0; expected = 1'b0;
+#25 d_in = 1'b1; expected = 1'b0;
+#50 d_in = 1'b1; expected = 1'b0;
+#50 d_in = 1'b0; expected = 1'b0;
+#50 d_in = 1'b1; expected = 1'b0;
+#50 d_in = 1'b0; expected = 1'b0;
+#50 d_in = 1'b0; expected = 1'b1;
+#50 d_in = 1'b1; expected = 1'b0;
+#50 d_in = 1'b1; expected = 1'b0;
+#50 d_in = 1'b1; expected = 1'b0;
+#50 d_in = 1'b0; expected = 1'b0;
+#50 d_in = 1'b1; expected = 1'b0;
+#50 d_in = 1'b0; expected = 1'b0;
+#50 d_in = 1'b0; expected = 1'b1;
+#50 d_in = 1'b1; expected = 1'b0;
+#50 d_in = 1'b1; expected = 1'b0;
+end
+
+// Test Results
+initial begin 
+$monitor ($time, " Clock: %b", clk,
+                 " Clear: %b", clear,
+                 " Data_in: %b", d_in,
+                 " Unlock: %b", unlock,
+                 " Expected: %b", expected
+          );
+end
+
+// Stop simulation after 750ns
+initial begin
+#750 $stop;
+end 
+
+endmodule
+
+ 
 Note: I'm beginner please suggest any improvement :grin:
 
 ## Misc
