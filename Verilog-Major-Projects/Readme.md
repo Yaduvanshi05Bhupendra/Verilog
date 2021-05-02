@@ -8,7 +8,10 @@
 ## Index
 
 * [Verilog-Major-Projects](#Verilog-Major-Projects)
+    * [16-Bit-RISC-PROCESSOR](#16-Bit-RISC-PROCESSOR)
+    * [ARTBITERO-PUF](#ARTBITERO-PUF)
     * [EVM](#EVM)
+    * [LCM-GCD-FINDER](#LCM-GCD-FINDER)
     * [REAL-TIME-CLOCK](#REAL-TIME-CLOCK)
 
 * [Misc](#Misc)
@@ -19,7 +22,10 @@
 * [License](#License)
 
 ## Verilog-Major-Projects
+### 16-Bit-RISC-PROCESSOR
+### ARTBITERO-PUF
 ### EVM
+### LCM-GCD-FINDER
 ### REAL-TIME-CLOCK
 
 Note: I'm beginner please suggest any improvement :grin:
